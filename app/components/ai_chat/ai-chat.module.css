@@ -25,8 +25,18 @@
     max-height: 400px;
 }
 
-.chatContent {
+.chatContent input {
+    width: 100%;
     padding: 10px;
+    font-size: 16px;
+    color: #000; /* Ensure text color is visible */
+    background-color: #fff; /* Ensure background contrasts with text */
+    border: 1px solid #ccc; /* Optional: for better visibility */
+    border-radius: 4px; /* Optional: rounded corners */
+}
+
+.chatContent input::placeholder {
+    color: #aaa; /* Style for placeholder text */
 }
 
 .messagesContainer {
